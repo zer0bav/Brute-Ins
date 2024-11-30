@@ -18,7 +18,7 @@ def islemFonk(inputName, sifre, proxy=None):
     options.add_argument("--ignore-certificate-errors")
     if proxy:
         options.add_argument(f"--proxy-server={proxy}")
-    #options.add_argument("--headless")
+    options.add_argument("--headless")
     driver = webdriver.Chrome(options=options)
 
     try:
