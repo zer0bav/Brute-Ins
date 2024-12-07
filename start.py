@@ -1,4 +1,4 @@
-import functoin as fc
+import function as fc
 import proxies_check
 
 import threading
